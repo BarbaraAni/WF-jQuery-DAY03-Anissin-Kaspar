@@ -1,6 +1,6 @@
-body{
-    margin-top:20px;
-    background:#eee;
+body {
+    margin-top: 20px;
+    background: #eee;
 }
 
 .prod-info-main {
@@ -9,8 +9,8 @@ body{
     margin-top: 10px;
     background: #fff;
     padding: 6px;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(21,180,255,0.5);
-    box-shadow: 0 1px 1px 0 rgba(21,180,255,0.5);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(21, 180, 255, 0.5);
+    box-shadow: 0 1px 1px 0 rgba(21, 180, 255, 0.5);
 }
 
 .prod-info-main .product-image {
@@ -121,8 +121,8 @@ body{
 }
 
 .product-info.smart-form .rating label {
-    margin-top:15px;
-    
+    margin-top: 15px;
+
 }
 
 .prod-wrap .product-image span.tag2 {
@@ -162,6 +162,7 @@ body{
 .prod-wrap .product-image span.special {
     background-color: #3B6764;
 }
+
 .shop-btn {
     position: relative
 }
@@ -173,7 +174,7 @@ body{
     box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
     font-weight: 700;
     border-radius: 50%;
-    padding: 2px 4px 3px!important;
+    padding: 2px 4px 3px !important;
     text-align: center;
     line-height: normal;
     width: 19px;
@@ -182,7 +183,7 @@ body{
 }
 
 .product-deatil hr {
-    padding: 0 0 5px!important
+    padding: 0 0 5px !important
 }
 
 .product-deatil .glyphicon {
@@ -210,16 +211,16 @@ body{
     font-size: 24px;
     margin: 0;
     font-weight: 300;
-    
+
 }
 
 .product-deatil .price-container small {
     font-size: 12px;
-    
+
 }
 
 .product-deatil .fa-2x {
-    font-size: 16px!important
+    font-size: 16px !important
 }
 
 .product-deatil .fa-2x>h5 {
@@ -278,19 +279,31 @@ body{
     .prod-info-main div[class*=col-md-4] {
         padding-right: 0
     }
+
     .prod-info-main div[class*=col-md-8] {
         padding: 0 13px 0 0
     }
+
     .prod-wrap div[class*=col-md-5] {
         padding-right: 0
     }
+
     .prod-wrap div[class*=col-md-7] {
         padding: 0 13px 0 0
     }
+
     .prod-info-main .product-image {
         border-right: 1px solid #dfe5e9
     }
+
     .prod-info-main .product-info {
         position: relative
     }
+}
+
+select {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
 }

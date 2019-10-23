@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8" />
-	<title>Your Page Events</title>
-	<link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <title>Your Page Events</title>
+    <link rel="stylesheet" href="styles.css" />
+    <audio id="audio" src="boom.mp3" autoplay></audio>
 </head>
-<body onclick="showCoords(event)">
 
-	<header>
-		<h1>jQuery Events</h1>
-	</header>
-	
-	<article>
-		
-		<div id="moveme" class="box"><img onclick="setfalse()" src="airplane.png"></div>
-		
-	</article>
+<body onmousemove="showCoords(event)">
+    <header>
+        <h1>jQuery Events</h1>
+    </header>
+    <article>
+        <div id="moveme" class="box"><img src="airplane.png"></div>
+    </article>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
 
-	<footer>
-		<p><a href="http://www.codefactory.wien/">&copy; Code Factory</a></p>
-	</footer>
 
-	<!-- load local copy of jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-	<!-- my script -->
-	<script defer src="myscript.js"></script>
-
+    
+    <!-- <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div>
+    <div class="rocket"><img onmouseover="setfalse()" src="rocket.png"></div> -->
+    <footer>
+        <p><a href="http://www.codefactory.wien/">&copy; Code Factory</a></p>
+    </footer>
+    <!-- load local copy of jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- my script -->
+    <script defer src="myscript.js"></script>
 </body>
+
 </html>

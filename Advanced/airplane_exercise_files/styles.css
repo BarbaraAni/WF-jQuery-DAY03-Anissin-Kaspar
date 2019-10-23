@@ -78,3 +78,12 @@ a
 	color: #00c;
 	margin: 0;
 }
+
+.rocket {
+	top: 500px;
+	width: 100px;
+}
+
+.rocket img {
+	width: 100%;
+}
