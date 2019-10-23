@@ -5,7 +5,7 @@
 	<title>Your Page Events</title>
 	<link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body onclick="showCoords(event)">
 
 	<header>
 		<h1>jQuery Events</h1>
@@ -13,7 +13,7 @@
 	
 	<article>
 		
-		<div id="moveme" class="box"><img src="airplane.png"></div>
+		<div id="moveme" class="box"><img onclick="setfalse()" src="airplane.png"></div>
 		
 	</article>
 
@@ -25,7 +25,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<!-- my script -->
-	<script src="myscript.js"></script>
+	<script defer src="myscript.js"></script>
 
 </body>
 </html>

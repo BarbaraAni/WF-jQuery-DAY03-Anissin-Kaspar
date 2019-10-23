@@ -11,7 +11,10 @@ body
 	color: #333; 
 	background-color: #fff;
 }
-
+article
+{
+	height: 500px;
+}
 header, article, footer, section
 {
 	display: block;
@@ -38,6 +41,7 @@ footer
 
 div#moveme
 {
+	position: absolute;
 	width: 6em;
 	height: 6em;
 	font-weight: bold;
