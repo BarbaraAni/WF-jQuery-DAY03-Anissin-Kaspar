@@ -1,0 +1,1 @@
+//After refreshing the page it appears slowly, stays in the same state for five seconds and than slowly disappears.
